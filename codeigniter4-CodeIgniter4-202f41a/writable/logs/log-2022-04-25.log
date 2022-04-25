@@ -1,0 +1,64 @@
+CRITICAL - 2022-04-25 04:34:58 --> include(C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Viewsparts/head.php): failed to open stream: No such file or directory
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp...', 'C:\\wamp\\www\\tp1...', 2, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): include()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(9): view('menu')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-25 04:35:00 --> include(C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Viewsparts/head.php): failed to open stream: No such file or directory
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp...', 'C:\\wamp\\www\\tp1...', 2, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): include()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(9): view('menu')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-25 04:35:06 --> include(C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Viewsparts/head.php): failed to open stream: No such file or directory
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp...', 'C:\\wamp\\www\\tp1...', 2, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): include()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(9): view('menu')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-25 04:35:21 --> include(C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Viewsparts/head.php): failed to open stream: No such file or directory
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp...', 'C:\\wamp\\www\\tp1...', 2, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\menu.php(2): include()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('menu.php', Array, true)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(9): view('menu.php')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-25 07:27:03 --> Call to undefined method App\Models\UserModel::getUser
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(14): CodeIgniter\Model->__call('getUser', Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+CRITICAL - 2022-04-25 07:29:38 --> Call to undefined method App\Models\UserModel::getUser
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(14): CodeIgniter\Model->__call('getUser', Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
