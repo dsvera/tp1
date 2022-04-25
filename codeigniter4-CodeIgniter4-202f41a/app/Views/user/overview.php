@@ -9,6 +9,7 @@
             <th>Adresse</th>
             <th>Numéro de téléphone</th>
             <th>Service</th>
+            <th>Supprimer</th>
         </tr>
     </thead>
     <tbody>
@@ -21,11 +22,12 @@
         <td><?= esc($user_item['adress']) ?></td>
         <td><?= esc($user_item['phoneNumber']) ?></td>
         <td><?= esc($user_item['id_service']) ?></td>
+        <td><button>Supprimer</button></td>
     <?php endforeach ?>
     </tr>
     </tbody>
 </table>
-
+<p>Ajouter un utilisateur <a href="">ici</a></p>
 <?php else: ?>
 
     <h3>No News</h3>
