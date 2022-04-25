@@ -4,11 +4,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class NewsModel extends Model
 {
-    protected $table = 'user';
+    protected $table = 'news';
 
-        public function getUser($slug = false)
+
+    public function getNews($slug = false)
     {
         if ($slug === false) {
             return $this->findAll();

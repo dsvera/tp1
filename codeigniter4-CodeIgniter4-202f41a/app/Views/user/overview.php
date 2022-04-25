@@ -1,17 +1,30 @@
-<h2><?= esc($title) ?></h2>
 
+
+<table>
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Age</th>
+            <th>Adresse</th>
+            <th>Numéro de téléphone</th>
+            <th>Service</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
 <?php if (! empty($user) && is_array($user)): ?>
-
     <?php foreach ($user as $user_item): ?>
-
-        <h3><?= esc($user_item['title']) ?></h3>
-
-        <div class="main">
-            <?= esc($user_item['body']) ?>
-        </div>
-        <p><a href="/user/<?= esc($user_item['slug'], 'url') ?>">View article</a></p>
-
+        <td><?= esc($user_item['lastname']) ?></td>
+        <td><?= esc($user_item['firstname']) ?></td>
+        <td><?= esc($user_item['birthDate']) ?></td>
+        <td><?= esc($user_item['adress']) ?></td>
+        <td><?= esc($user_item['phoneNumber']) ?></td>
+        <td><?= esc($user_item['id_service']) ?></td>
     <?php endforeach ?>
+    </tr>
+    </tbody>
+</table>
 
 <?php else: ?>
 

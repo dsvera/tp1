@@ -12,7 +12,7 @@ class User extends BaseController
 
         $data = [
             'user'  => $model->getUser(),
-            'title' => 'User archive',
+            'title' => 'Liste du personnel : ',
         ];
     
         echo view('templates/header', $data);
