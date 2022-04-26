@@ -1,0 +1,161 @@
+ERROR - 2022-04-26 02:16:50 --> Table/alias: 'user' non unique
+CRITICAL - 2022-04-26 02:16:50 --> Call to a member function result() on bool
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(15): App\Models\UserModel->getdata()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+ERROR - 2022-04-26 02:17:22 --> Table/alias: 'user' non unique
+CRITICAL - 2022-04-26 02:17:22 --> Call to a member function result() on bool
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(15): App\Models\UserModel->getdata()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+ERROR - 2022-04-26 02:17:23 --> Table/alias: 'user' non unique
+CRITICAL - 2022-04-26 02:17:23 --> Call to a member function result() on bool
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(15): App\Models\UserModel->getdata()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+CRITICAL - 2022-04-26 02:19:37 --> Call to a member function getdata() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+ERROR - 2022-04-26 02:23:22 --> Table/alias: 'user' non unique
+CRITICAL - 2022-04-26 02:23:22 --> Call to a member function result() on bool
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(14): App\Models\UserModel->getdata()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+ERROR - 2022-04-26 02:23:23 --> Table/alias: 'user' non unique
+CRITICAL - 2022-04-26 02:23:23 --> Call to a member function result() on bool
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(14): App\Models\UserModel->getdata()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+CRITICAL - 2022-04-26 02:58:40 --> Illegal string offset 'lastname'
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp\\www\\tp1...', 20, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(19): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+CRITICAL - 2022-04-26 03:07:02 --> Call to undefined method App\Models\UserModel::getUser
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(14): CodeIgniter\Model->__call('getUser', Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+CRITICAL - 2022-04-26 03:07:10 --> Call to undefined method App\Models\UserModel::getUser
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(14): CodeIgniter\Model->__call('getUser', Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#6 {main}
+CRITICAL - 2022-04-26 03:07:52 --> Illegal string offset 'lastname'
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp\\www\\tp1...', 20, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(19): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+CRITICAL - 2022-04-26 03:07:54 --> Illegal string offset 'lastname'
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp\\www\\tp1...', 20, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(19): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+CRITICAL - 2022-04-26 03:08:28 --> syntax error, unexpected '{', expecting '('
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp\\www\\tp1...')
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 [internal function]: spl_autoload_call('App\\Models\\User...')
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Config\Factories.php(136): class_exists('App\\Models\\User...')
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Models\\User...')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(11): model('App\\Models\\User...')
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#13 {main}
+CRITICAL - 2022-04-26 04:06:55 --> Call to a member function table() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-26 04:07:52 --> Call to a member function table() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-26 04:08:15 --> Call to a member function table() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-26 04:08:16 --> Call to a member function table() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-26 04:26:34 --> Call to a member function findAll() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-26 04:26:56 --> Call to a member function findAll() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
