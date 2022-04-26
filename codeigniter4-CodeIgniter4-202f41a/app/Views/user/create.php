@@ -34,6 +34,7 @@
         <select class="col-2 m-1" name="id_service">
             <option selected>Service</option>
             <?php foreach ($service as $service_item) : ?>
+                
                 <option value="<?= esc($service_item['id']) ?>"><?= esc($service_item['serviceName'])?></option>
             <?php endforeach ?>
         </select>

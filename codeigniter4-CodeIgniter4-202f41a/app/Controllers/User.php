@@ -14,7 +14,6 @@ class User extends BaseController
 
         $data = [
             'user'  => $model->join('service', 'user.id_service = service.id')->findAll(),
-            'delete' => $model->delete(),
             'service' => $modelService->findAll(),
             'title' => 'Liste du personnel : ',
         ];
@@ -22,6 +21,13 @@ class User extends BaseController
         echo view('templates/header', $data);
         echo view('user/overview', $data);
         echo view('templates/footer', $data);
+    }
+    
+    public function delete($id)
+    {
+        $model = model(UserModel::class);
+        $model->delete($id);
+            //$model->delete($id);
     }
 
     public function create()
@@ -32,14 +38,14 @@ class User extends BaseController
             'service' => $modelService->findAll(),
         ];
 
-        if ($this->request->getMethod() === 'post' && $this->validate([
-            'lastname' => 'required',
-            'firstname' => 'required',
+        if ($this->validate([
+            'lastname' => 'required|min_length[2]|max_length[50]',
+            'firstname' => 'required|min_length[2]|max_length[50]',
             'birthDate' => 'required',
-            'adress' => 'required',
-            'postCode' => 'required',
-            'phoneNumber' => 'required',
-            'id_service' => 'required',
+            'adress' => 'required|min_length[5]|max_length[300]',
+            'postCode' => 'required|min_length[5]|max_length[5]',
+            'phoneNumber' => 'required|max_length[15]|numeric',
+            'id_service' => 'required|min_length[1]|numeric',
         ])) {
             $result = [
                 'lastname' => $this->request->getPost('lastname'),

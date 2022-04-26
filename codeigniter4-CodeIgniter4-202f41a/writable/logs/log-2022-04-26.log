@@ -307,3 +307,10 @@ CRITICAL - 2022-04-26 07:03:12 --> Allowed fields must be specified for model: A
 #8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
 #10 {main}
+CRITICAL - 2022-04-26 09:26:40 --> Call to a member function post() on null
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(713): require()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}

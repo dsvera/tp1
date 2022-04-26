@@ -33,12 +33,17 @@
                     <td><?= esc($user_item['adress']) ?></td>
                     <td><?= esc($user_item['phoneNumber']) ?></td>
                     <td><?= esc($user_item['serviceName']) ?></td>
-                    <td><button type="submit" class="btn btn-outline-danger" value="<?= esc($user_item['id']) ?>">Supprimer</button></td>
+                    <td>
+                        <form method="post">
+                            <input type="hidden" id="idDelete" name="idDelete" value="<?= esc($user_item['id']) ?>">
+                            <input type="submit" class="btn btn-danger text-black" value="supprimer" name="inputDelete">
+                        </form>
+                    </td>
                 </tr>
             <?php endforeach ?>
     </tbody>
 </table>
-<p>Ajouter un utilisateur <a href="user/create">ici</a></p>
+<p>Ajouter un utilisateur <a href="user/create" class="btn btn-warning">ici</a></p>
 <?php else : ?>
 
     <h3>Liste introuvable</h3>
