@@ -1,9 +1,7 @@
-<h2><?= esc($title) ?></h2>
-
 <?= session()->getFlashdata('error') ?>
 <?= service('validation')->listErrors() ?>
 
-<form action="/user/create" method="post">
+<form action="/user/create" method="POST">
     <?= csrf_field() ?>
     <div class="row">
         <label class="col-2 m-1" for="lastname">Nom</label>

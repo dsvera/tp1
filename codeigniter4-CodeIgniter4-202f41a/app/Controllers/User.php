@@ -23,11 +23,41 @@ class User extends BaseController
         echo view('templates/footer', $data);
     }
     
-    public function delete($id)
+    public function delete($iduser)
     {
         $model = model(UserModel::class);
-        $model->delete($id);
-            //$model->delete($id);
+        $modelService = model(ServiceModel::class);
+        $model->delete($iduser);
+        
+        $data =[
+            'user'  => $model->join('service', 'user.id_service = service.id')->findAll(),
+            'service' => $modelService->findAll(),
+            'title' => 'Liste du personnel : ',
+        ];
+        echo view('templates/header');
+        echo view('user/overview', $data);
+        echo view('templates/footer');
+    }
+
+    public function select()
+    {
+        $model = model(UserModel::class);
+        $modelService = model(ServiceModel::class);
+        $request = \Config\Services::request();
+        $data = [
+            'user' => $model->getWhere(['id' => $request->getPost('idservice')]),
+        ];
+        if ($request->getPost('idservice'))
+        {
+            $data =[
+                'user'  => $model->join('service', 'user.id_service = service.id')->findAll(),
+                'service' => $modelService->findAll(),
+                'title' => 'Service',
+            ];
+        echo view('templates/header');
+        echo view('user/overview', $data);
+        echo view('templates/footer');
+        }
     }
 
     public function create()

@@ -1,0 +1,181 @@
+CRITICAL - 2022-04-27 02:54:39 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(22): view('user/overview', Array)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#9 {main}
+CRITICAL - 2022-04-27 03:17:37 --> Invalid argument supplied for foreach()
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp\\www\\tp1...', 6, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(33): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->delete('1')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+CRITICAL - 2022-04-27 03:18:09 --> Invalid argument supplied for foreach()
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp\\www\\tp1...', 6, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(33): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->delete('1')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+CRITICAL - 2022-04-27 03:19:45 --> Invalid argument supplied for foreach()
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp\\www\\tp1...', 6, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(33): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->delete('1')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+CRITICAL - 2022-04-27 03:20:02 --> Invalid argument supplied for foreach()
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp\\www\\tp1...', 6, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(33): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->delete('1')
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+ERROR - 2022-04-27 03:49:59 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:02 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:07 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:12 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:14 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:54 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:56 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:50:58 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:55:46 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:55:51 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:55:53 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:55:57 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:55:59 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:56:01 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:56:02 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:56:03 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 03:57:07 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:01:22 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:01:23 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:01:25 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:01:26 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:26 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:27 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:34 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:37 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:40 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:41 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:43 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:44 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:44 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:49 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:50 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:51 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:52 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:53 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:54 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:55 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:08:59 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:09:05 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:09:44 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:09:50 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:11:06 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:11:08 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:11:11 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:11:16 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:16:59 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:02 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:03 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:05 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:07 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:15 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:17 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:18 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:18 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:17:18 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:18:13 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:18:16 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:18:20 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:35 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:41 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:47 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:48 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:49 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:50 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:51 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:52 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:53 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:20:54 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 04:47:22 --> Champ 'id' inconnu dans where clause
+CRITICAL - 2022-04-27 04:47:22 --> Invalid argument supplied for foreach()
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp\\www\\tp1...', 7, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(52): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->select()
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+ERROR - 2022-04-27 06:45:26 --> Champ 'id' inconnu dans where clause
+CRITICAL - 2022-04-27 06:45:26 --> Invalid argument supplied for foreach()
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Views\user\overview.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp\\www\\tp1...', 7, Array)
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\wamp\\www\\tp1...')
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('user/overview', Array, true)
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\app\Controllers\User.php(52): view('user/overview', Array)
+#5 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->select()
+#6 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#10 {main}
+ERROR - 2022-04-27 06:49:57 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 06:50:03 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 06:50:57 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 06:51:35 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 06:51:36 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 06:52:58 --> Champ 'id' inconnu dans where clause
+ERROR - 2022-04-27 06:53:02 --> Champ 'id' inconnu dans where clause
+CRITICAL - 2022-04-27 06:58:03 --> Call to a member function paginate() on array
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-27 06:58:06 --> Call to a member function paginate() on array
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}
+CRITICAL - 2022-04-27 06:59:15 --> Call to a member function paginate() on array
+#0 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp\www\tp1code\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp\\www\\tp1...')
+#5 {main}

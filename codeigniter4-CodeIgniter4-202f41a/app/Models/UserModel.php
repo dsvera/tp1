@@ -7,6 +7,13 @@ use CodeIgniter\Model;
 class UserModel extends Model
 {
     protected $table = 'user';
-    protected $allowedFields = ['id', 'lastname', 'firstname', 'birthDate', 'adress', 'postCode', 'phoneNumber', 'id_service'];
+    protected $primaryKey = 'iduser';
+
+    protected $useAutoIncrement = true;
+
+    protected $returnType     = 'array';
+    protected $useSoftDeletes = false;
+
+    protected $allowedFields = ['iduser', 'lastname', 'firstname', 'birthDate', 'adress', 'postCode', 'phoneNumber', 'id_service'];
 
 }
